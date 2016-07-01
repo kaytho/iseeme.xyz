@@ -1,0 +1,15 @@
+body{
+  background: Gray;
+  color: Blue;
+  font-size: 50px;
+}
+
+p{
+  background: pink;
+  color: white;
+}
+row{
+  background-color: orange;
+  color:white;
+  border: 5px dotted green;
+}
