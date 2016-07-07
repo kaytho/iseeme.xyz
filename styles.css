@@ -1,0 +1,39 @@
+body{
+  background:yellow;
+  color: red;
+  font-size: 50px;
+  background-image: url("http://tek-bull.com/wp-content/uploads/2011/12/Grey-website-background.jpg");
+}
+nav{
+  color:blue;
+  font-size: 20px;
+  left: 0;
+}
+h1{
+  text-align: center;
+
+}
+img{
+  height: 400px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.card{
+  border: black 2px solid;
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  font-size:10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 45px;
+}
+.card p{
+  border: 2px solid black;
+}
+
+
+
+span{
+  color: red;
+}

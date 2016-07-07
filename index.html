@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>I see Me</title>
-  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
-  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
-  <link rel="stylesheet" href="/css/master.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
@@ -14,9 +15,9 @@
         <div id="Nav">
           <nav>
             <ul>
-               <a href="index.html">Home</a>
-               <a href="#store">Shop the Store</a>
-               <a href="#contact">Contact us</a>
+               <a href="index.html">Home |</a>
+               <a href="#store">Shop the Store |</a>
+               <a href="#contact">Contact Us</a>
            </ul>
         </nav>
       </div>
@@ -28,90 +29,144 @@
 
     <div id="index">
       <h1>I see Me</h1>
-      <p> This site is for You to embrace everything that's inheritly You. We all come in many colors,shapes, forms and fashion. See yourself like I see me..</p>
+      <h2> This site is for You to embrace everything that's inheritly You. We all come in many colors,shapes, forms and fashion. See yourself like I see me..</h2>
 
     </div>
 
+    <!-- end homepage -->
+
 <!-- store -->
     <div id="store">
-      <div class="container-fluid">
+      <div class="container">
 
         <h1> Find Yourself </h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
 
       </div>
-      \
+
 
 
 
       <div class="portfolio-area">
         <div class="row head">
-          <h1 class="col-md-12">Pro<span>j</span>ects</h1>
+          <h1 class="col-md-12">Pro<span>d</span>ucts</h1>
         </div>
-      </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <a href="https://github.com/kaytho/DontForget/" target="_blank">
-              <img src="http://i.imgur.com/r3sKStB.png" alt="DontForget" style="width:500px;height:328px;">
-            </a>
-          </div>
-
-          <div class="col-md-6">
-
-            <p>
-              Don't Forget is a project that allows a user to either send an appointment reminder via text to themselves, or automate a text to someone  else at a future time. This project used: <br><span> Node | Express | JavaScript </span>
-            </p>
-          </div>
-      </div>
-
-
-          <div class="row">
-            <div class="col-md-6">
-              <a href="https://shrouded-garden-26883.herokuapp.com/companies" target="_blank">
-                <img src="http://i.imgur.com/1iwFUjq.png" alt="TechInvestor" style="width:500px;height:328px;">
-              </a>
+      <br>
+<!-- row 1 -->
+        <div class="card-deck-wrapper">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" img src="http://i.imgur.com/f3yEURi.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">The Birth of Jesus</h4>
+                <p class="card-text">This is a children's story about the birth of Jesus Christ.</p>
+               </div>
             </div>
 
-            <div class="col-md-6">
-              <!-- Information about the app -->
-              <p>
-                TechInvestor is a project that allows a user to track wether they're invested or divested in a company. This project used:<span><br> Ruby on Rails| Devise | JavaScript</span>
-              </p>
+            <div class="card">
+              <img class="card-img-top" img src="http://i.imgur.com/VFVpaJ0.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">The Holy Bible for children of color</h4>
+                <p class="card-text">This is a bible for children of color. The level is youth.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" img src="http://i.imgur.com/bDMUeZv.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Holy Bible for Children of Color</h4>
+                <p class="card-text">This Holy Bible is designed specifically for children of color</p>
+              </div>
             </div>
           </div>
+        </div>
 
+        <!-- row 2 -->
+        <div class="card-deck-wrapper">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" img src="http://i.imgur.com/SEyzeZB.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Jesus Walks on the Water</h4>
+                <p class="card-text">This is a kid's story about how Jesus walked on water.</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+               </div>
+            </div>
 
-
-        <div class="row">
-          <div class="col-md-6">
-            <a href="http://tictacfoe.bitballoon.com/" target="_blank">
-              <img src="http://i.imgur.com/KnRUT0p.png" alt="Tic-Tac-Foe" style="width:500px;height:328px;">
-            </a>
+            <div class="card">
+              <img class="card-img-top" img src="http://i.imgur.com/XY60ufx.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Jonah and the Big Fish</h4>
+                <p class="card-text">This is the story of Jonah being swallowed by the fish</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" img src="http://i.imgur.com/okMPRLY.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">What Every Man of Color Should...</h4>
+                <p class="card-text">The title describes it all</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
-            <!--Information about the app-->
-            <p>
-              Tic-Tac-Foe is a game written during the first week of my 12 week program. This game utilized:<br><span> Html | CSS | JavaScript</span>
-            </p>
-          </div>
+        </div>
+<!-- row 3           -->
+<div class="card-deck-wrapper">
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" img src="http://i.imgur.com/9RXVbjv.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">My First Bible</h4>
+        <p class="card-text">The very first bible a child of color.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+       </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" img src="http://i.imgur.com/URQiKzB.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Women of Color Devotional</h4>
+        <p class="card-text">Devotional for Women of Color</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" img src="http://i.imgur.com/bQZ0aGG.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Young Women of Color Bible</h4>
+        <p class="card-text">Bible for Young Women of Color</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
       </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <a href="https://github.com/kaytho/goodSpirits/" target="_blank">
-            <img src="http://i.imgur.com/av4fxd4.png" alt="Good Spirits" style="width:500px;height:328px;">
-          </a>
-        </div>
-          <div class="col-md-6">
-            <!-- information about the app -->
-              <p>
-                Good Spirits is an app that allows users to track their favorite beers. Technologies used were:<span><br> Node | Bootstrap | Html | CSS  MongoDB</span>
-              </p>
-          </div>
+
+
+
+
       </div>
 
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+      </div>
+        <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_200x51.png" alt="PayPal" />
+      </div>
 
       </div>
 
