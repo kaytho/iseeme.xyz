@@ -2,74 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>I See Me</title>
+  <title>I see Me</title>
+  <link rel="stylesheet" href="../stylesheets/styles.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
+
   <div class="container">
       <div class="portfolio-area top">
         <div id="Nav">
           <nav>
             <ul>
-               <a href="index.html">Home |</a>
-               <a href="#store">Shop the Store |</a>
-               <a href="#contact">Contact Us</a>
+               <a href="index.ejs">Home |</a>
+               <a href="store.ejs">Shop the Store |</a>
+               <a href="contact.ejs">Contact Us</a>
            </ul>
         </nav>
       </div>
     </div>
-
-<h1>I See Me </h1>
-
-
-<!-- Homepage/index page -->
-<div id="index">
-
-
-<p>
-  This site is for You to embrace everything that's inheritly You. We all come in many colors,shapes, forms and fashion. See yourself like I see me...
-</p>
-
-  </div>
-</body>
-</html>
-
-<!-- end homepage -->
-
-
-
-
-<!--
-begin store -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>I see Me</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-<!--
-  <div class="container">
-      <div class="portfolio-area top">
-        <div id="Nav">
-          <nav>
-            <ul>
-               <a href="index.html">Home |</a>
-               <a href="#store">Shop the Store |</a>
-               <a href="#contact">Contact Us</a>
-           </ul>
-        </nav>
-      </div>
-    </div> -->
 
 
 <!-- store -->
@@ -81,14 +34,16 @@ begin store -->
 
       </div>
 
-<div id="my-store-9682110"></div><div> <script type="text/javascript" src="https://app.ecwid.com/script.js?9682110" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(3,3) list(10) table(20)","categoryView=grid","searchView=list","id=my-store-9682110");</script></div>
-      <!-- <div class="portfolio-area">
+
+
+
+      <div class="portfolio-area">
         <div class="row head">
           <h1 class="col-md-12">Pro<span>d</span>ucts</h1>
         </div>
       <br>
-<!- row 1 -->
-        <!-- <div class="card-deck-wrapper">
+<!-- row 1 -->
+        <div class="card-deck-wrapper">
           <div class="card-deck">
             <div class="card">
               <img class="card-img-top" img src="http://i.imgur.com/f3yEURi.jpg" alt="Card image cap">
@@ -96,7 +51,15 @@ begin store -->
                 <h4 class="card-title">The Birth of Jesus</h4>
                 <p class="card-text">This is a children's story about the birth of Jesus Christ.</p>
 
-
+                <form name="_xclick" target="paypal" action="" method="post">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="business" value="">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="item_name" value="HTML book">
+                <input type="hidden" name="amount" value="24.99">
+                <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+                <input type="hidden" name="add" value="1">
+                </form>
 
                </div>
             </div>
@@ -104,7 +67,7 @@ begin store -->
             <div class="card">
               <img class="card-img-top" img src="http://i.imgur.com/VFVpaJ0.jpg" alt="Card image cap">
               <div class="card-block">
-                <h4 class="card-title">Holy Bible for COC-Y</h4>
+                <h4 class="card-title">The Holy Bible for children of color</h4>
                 <p class="card-text">This is a bible for children of color. The level is youth.</p>
               </div>
             </div>
@@ -118,8 +81,8 @@ begin store -->
           </div>
         </div>
 
-        <!- row 2 -->
-        <!-- <div class="card-deck-wrapper">
+        <!-- row 2 -->
+        <div class="card-deck-wrapper">
           <div class="card-deck">
             <div class="card">
               <img class="card-img-top" img src="http://i.imgur.com/SEyzeZB.jpg" alt="Card image cap">
@@ -141,15 +104,15 @@ begin store -->
             <div class="card">
               <img class="card-img-top" img src="http://i.imgur.com/okMPRLY.jpg" alt="Card image cap">
               <div class="card-block">
-                <h4 class="card-title">What Every MOC Should...</h4>
+                <h4 class="card-title">What Every Man of Color Should...</h4>
                 <p class="card-text">The title describes it all</p>
                 <p class="card-text"><small class="text-muted"></small></p>
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
 <!-- row 3           -->
-<!-- <div class="card-deck-wrapper">
+<div class="card-deck-wrapper">
   <div class="card-deck">
     <div class="card">
       <img class="card-img-top" img src="http://i.imgur.com/9RXVbjv.jpg" alt="Card image cap">
@@ -180,12 +143,14 @@ begin store -->
   </div>
 </div>
 
-</div>
 
- -->
+      </div>
 
 
-</div>
+
+
+
+      </div>
 
 
 
@@ -194,7 +159,8 @@ begin store -->
 <br>
 
 
-      <!-- </div>
+      </div>
+      <a href="/logout" class="btn btn-info" role="button">Press Here to Login</a>
 
       <form name="_xclick" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_cart">
@@ -204,49 +170,13 @@ begin store -->
       </form>
 
 
-      </div> -->
+      </div>
 
       </div>
 
   </div>
 
 
-
-</body>
-</html>
-
-<!--
-begin contact -->
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>I See Me</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <!-- <div class="container">
-      <div class="portfolio-area top">
-        <div id="Nav">
-          <nav>
-            <ul>
-               <a href="index.html">Home |</a>
-               <a href="#store">Shop the Store |</a>
-               <a href="#contact">Contact Us</a>
-           </ul>
-        </nav>
-      </div>
-    </div> -->
-<h1>Contact Us</h1>
-<p>
-  We are glad you stopped by. If you have any questions or concerns please feel free to contact us.
-</p>
 
 </body>
 </html>
